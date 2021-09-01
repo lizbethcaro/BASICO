@@ -1,0 +1,35 @@
+
+<html ng-app="applicasuz">
+  <head>
+
+    <meta charset="UTF-8">
+
+        <title>  </title>
+
+        <script src="js/angular.min.js"></script>
+   
+  </head>
+  <body>
+    
+    <div ng-controller="controlador" >
+      
+      <div ng-repeat="item in producto">
+
+        <table border="1px">
+          <tr>
+            
+              <td><h style="color:blue; font-size: 20px;">{{item.id}}</h></td>
+              <td><h style="color:red; font-size: 20px;">{{item.nombre}}</h></td>
+              <td><h style="color:green; font-size: 20px;">{{precio}}</h></td>
+              <td> <a href="{{item.enlace}}"><img style="width: 50px;"  src="img/{{item.icono}}"></a></td>
+              
+          </tr>
+        </table>
+        
+      </div>
+         
+    </div>
+
+    <script src="js/operaciones.js"></script>
+  </body>
+</html>

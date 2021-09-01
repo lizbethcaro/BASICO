@@ -1,0 +1,31 @@
+
+<html ng-app="applicasuz">
+  <head>
+
+    <meta charset="UTF-8">
+
+        <title>  </title>
+
+        <script src="js/angular.min.js"></script>
+   
+  </head>
+  <body>
+    
+   
+    <div ng-controller="controlador" >
+      <!--input type='text' ng-model="valor" ng-clik="imprimir()" ng-change="imprimir()" onchange="cambiar()"-->
+      <input type="text" id="num1" ng-model="num1" />
+      <input type="text" id="num2" ng-model="num2" />
+    <input type="submit" value="sumar" ng-click="sum()" />
+    <input type="text" ng-model="resultado" />
+    <hr>
+    <input type="text" id="num4" ng-model="num4" />
+    <input type="text" id="num5" ng-model="num5" />
+    <input type="submit" value="restar" ng-click="res()" />
+    <input type="text" ng-model="resultado2" />
+   
+    </div>
+
+    <script src="js/operaciones.js"></script>
+  </body>
+</html>
