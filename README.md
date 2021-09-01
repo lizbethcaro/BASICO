@@ -1,0 +1,2 @@
+# BASICO
+son archivos ng
